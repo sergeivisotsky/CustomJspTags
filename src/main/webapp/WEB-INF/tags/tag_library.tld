@@ -5,7 +5,7 @@
         xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-jsptaglibrary_2_0.xsd"
         version="2.0">
 
-    <description>Custom tag for study purposes</description>
+    <description>Custom tags for study purposes</description>
     <tlib-version>1.0</tlib-version>
     <short-name>mytags</short-name>
     <uri>http://localhost:8080/tags</uri>
