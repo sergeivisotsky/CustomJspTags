@@ -1,10 +1,15 @@
 <%@ page contentType="text/html;charset=UTF-8" %>
-<%@ taglib prefix="title" uri="http://localhost:8080/tags" %>
+<%@ taglib prefix="m" uri="http://localhost:8080/tags" %>
 <html>
 <head>
     <title>Welcome Servlet</title>
 </head>
 <body>
-<title:title>Tag creation project</title:title>
+<m:title>Tag creation project</m:title>
+<br/>
+Current date and time: <m:today/>
+
+<h3>Number format example: </h3>
+<m:formatNumber number="100050.574" format="#,###.00"/>
 </body>
 </html>

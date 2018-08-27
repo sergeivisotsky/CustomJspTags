@@ -7,13 +7,31 @@
 
     <description>Custom tag for study purposes</description>
     <tlib-version>1.0</tlib-version>
-    <short-name>title</short-name>
+    <short-name>mytags</short-name>
     <uri>http://localhost:8080/tags</uri>
 
     <tag>
         <name>title</name>
         <tag-class>org.sergei.servlet.tag.TitleTag</tag-class>
         <body-content>scriptless</body-content>
+    </tag>
+    <tag>
+        <name>today</name>
+        <tag-class>org.sergei.servlet.tag.DateTag</tag-class>
+        <body-content>scriptless</body-content>
+    </tag>
+    <tag>
+        <name>formatNumber</name>
+        <tag-class>org.sergei.servlet.tag.NumberFormatterTag</tag-class>
+        <body-content>empty</body-content>
+        <attribute>
+            <name>format</name>
+            <required>true</required>
+        </attribute>
+        <attribute>
+            <name>number</name>
+            <required>true</required>
+        </attribute>
     </tag>
 
 </taglib>

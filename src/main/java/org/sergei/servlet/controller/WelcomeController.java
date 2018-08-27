@@ -12,7 +12,6 @@ public class WelcomeController {
 
     @GetMapping
     public String welcome() {
-        LOGGER.info("Sample servlet application");
         return "index";
     }
 }
