@@ -5,7 +5,7 @@ import javax.servlet.jsp.tagext.SimpleTagSupport;
 import java.io.IOException;
 import java.io.StringWriter;
 
-public class ElemTag extends SimpleTagSupport {
+public class TitleTag extends SimpleTagSupport {
 
     private StringWriter stringWriter = new StringWriter();
 
