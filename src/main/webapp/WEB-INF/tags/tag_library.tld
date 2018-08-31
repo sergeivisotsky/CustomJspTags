@@ -33,5 +33,10 @@
             <required>true</required>
         </attribute>
     </tag>
+    <tag>
+        <name>hello</name>
+        <tag-class>org.sergei.servlet.tag.HelloTag</tag-class>
+        <body-content>empty</body-content>
+    </tag>
 
 </taglib>

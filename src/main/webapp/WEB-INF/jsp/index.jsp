@@ -11,5 +11,7 @@ Current date and time: <m:today/>
 
 <h3>Number format example: </h3>
 <m:formatNumber number="100050.574" format="#,###.00"/>
+<br/>
+<m:hello/>
 </body>
 </html>
