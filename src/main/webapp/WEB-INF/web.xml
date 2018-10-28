@@ -7,17 +7,13 @@
     <display-name>Servlet Sample</display-name>
 
     <servlet-mapping>
-        <servlet-name>ServletSample</servlet-name>
+        <servlet-name>custom-jsp-tags</servlet-name>
         <url-pattern>/</url-pattern>
     </servlet-mapping>
 
     <servlet>
-        <servlet-name>ServletSample</servlet-name>
-        <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
-        <init-param>
-            <param-name>contextConfigLocation</param-name>
-            <param-value>/WEB-INF/jsp-tags-servlet.xml</param-value>
-        </init-param>
+        <servlet-name>custom-jsp-tags</servlet-name>
+        <servlet-class>org.sergei.servlet.controller.TagController</servlet-class>
     </servlet>
 
     <jsp-config>

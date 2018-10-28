@@ -2,7 +2,7 @@
 <%@ taglib prefix="m" uri="http://localhost:8080/tags" %>
 <html>
 <head>
-    <title>Welcome Servlet</title>
+    <title>Custom JSP tags</title>
 </head>
 <body>
 <m:title>Tag creation project</m:title>

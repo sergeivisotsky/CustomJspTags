@@ -5,51 +5,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.sergei</groupId>
-    <artifactId>CustomJspTags</artifactId>
+    <artifactId>custom-jsp-tags</artifactId>
     <version>1.0-SNAPSHOT</version>
-
     <packaging>war</packaging>
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <configuration>
-                    <source>1.8</source>
-                    <target>1.8</target>
-                </configuration>
-            </plugin>
-        </plugins>
-        <finalName>CustomJspTags</finalName>
-    </build>
-    <properties>
-        <org.springframework-version>5.0.3.RELEASE</org.springframework-version>
-        <org.hibernate-version>5.1.10.Final</org.hibernate-version>
-        <org.slf4j-version>1.7.5</org.slf4j-version>
-    </properties>
-    <dependencies>
-        <!--Spring-->
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-core</artifactId>
-            <version>${org.springframework-version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-web</artifactId>
-            <version>${org.springframework-version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-webmvc</artifactId>
-            <version>${org.springframework-version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-context</artifactId>
-            <version>${org.springframework-version}</version>
-        </dependency>
 
+    <dependencies>
         <!-- Servlet -->
         <dependency>
             <groupId>javax.servlet</groupId>
@@ -70,4 +30,17 @@
         </dependency>
     </dependencies>
 
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                </configuration>
+            </plugin>
+        </plugins>
+        <finalName>jsp-tags</finalName>
+    </build>
 </project>
