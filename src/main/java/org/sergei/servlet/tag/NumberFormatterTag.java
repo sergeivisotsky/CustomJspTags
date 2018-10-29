@@ -1,3 +1,7 @@
+/*
+ * Copyright (c) Sergei Visotsky, 2018
+ */
+
 package org.sergei.servlet.tag;
 
 import javax.servlet.jsp.JspException;

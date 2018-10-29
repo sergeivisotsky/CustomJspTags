@@ -1,3 +1,7 @@
+/*
+ * Copyright (c) Sergei Visotsky, 2018
+ */
+
 package org.sergei.servlet.controller;
 
 import javax.servlet.RequestDispatcher;
