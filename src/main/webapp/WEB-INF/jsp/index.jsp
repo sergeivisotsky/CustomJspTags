@@ -1,7 +1,3 @@
-<%--
-  ~ Copyright (c) 2018 Sergei Visotsky
-  --%>
-
 <%@ page contentType="text/html;charset=UTF-8" %>
 <%@ taglib prefix="m" uri="http://localhost:8080/tags" %>
 <html>

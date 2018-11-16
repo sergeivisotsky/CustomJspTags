@@ -1,7 +1,3 @@
-/*
- * Copyright (c) 2018 Sergei Visotsky
- */
-
 package org.sergei.servlet.tag;
 
 import javax.servlet.jsp.JspException;
@@ -9,6 +5,9 @@ import javax.servlet.jsp.SkipPageException;
 import javax.servlet.jsp.tagext.SimpleTagSupport;
 import java.text.DecimalFormat;
 
+/**
+ * @author Sergei Visotsky, 2018
+ */
 public class NumberFormatterTag extends SimpleTagSupport {
     private String format;
     private String number;

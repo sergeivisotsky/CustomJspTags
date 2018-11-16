@@ -1,7 +1,3 @@
-/*
- * Copyright (c) 2018 Sergei Visotsky
- */
-
 package org.sergei.servlet.tag;
 
 import javax.servlet.jsp.JspWriter;
@@ -9,6 +5,9 @@ import javax.servlet.jsp.tagext.TagSupport;
 import java.io.IOException;
 import java.util.Calendar;
 
+/**
+ * @author Sergei Visotsky, 2018
+ */
 public class DateTag extends TagSupport {
 
     @Override
