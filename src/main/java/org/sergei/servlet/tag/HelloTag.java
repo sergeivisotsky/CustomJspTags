@@ -5,7 +5,7 @@ import javax.servlet.jsp.tagext.TagSupport;
 import java.io.IOException;
 
 /**
- * @author Sergei Visotsky, 2018
+ * @author Sergei Visotsky
  */
 public class HelloTag extends TagSupport {
 

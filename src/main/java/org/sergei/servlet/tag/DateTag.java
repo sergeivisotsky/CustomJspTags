@@ -6,7 +6,7 @@ import java.io.IOException;
 import java.util.Calendar;
 
 /**
- * @author Sergei Visotsky, 2018
+ * @author Sergei Visotsky
  */
 public class DateTag extends TagSupport {
 

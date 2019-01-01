@@ -6,7 +6,7 @@ import java.io.IOException;
 import java.io.StringWriter;
 
 /**
- * @author Sergei Visotsky, 2018
+ * @author Sergei Visotsky
  */
 public class TitleTag extends SimpleTagSupport {
 

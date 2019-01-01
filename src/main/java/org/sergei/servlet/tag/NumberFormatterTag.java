@@ -6,7 +6,7 @@ import javax.servlet.jsp.tagext.SimpleTagSupport;
 import java.text.DecimalFormat;
 
 /**
- * @author Sergei Visotsky, 2018
+ * @author Sergei Visotsky
  */
 public class NumberFormatterTag extends SimpleTagSupport {
     private String format;
